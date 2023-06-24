@@ -1,7 +1,5 @@
 import { v4 as uuidv4 } from "https://jspm.dev/uuid";
 
-// const publish = document.getElementById("publish");
-
 const myContent = [
   {
     to: "Jane Doe",
@@ -12,13 +10,6 @@ const myContent = [
     id: "e2fb8758-a373-4981-addc-0b943dcb428a",
   },
 ];
-
-// publish.addEventListener("click", function () {
-//   const contentValue = content.value;
-//   myContent.push(contentValue);
-//   // showContent();
-//   render();
-// });
 
 document.addEventListener("click", function (e) {
   if (e.target.dataset.like) {
